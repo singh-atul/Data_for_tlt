@@ -1,0 +1,24 @@
+url:
+  https://github.com/singh-atul/Data_for_tlt/blob/main/tlt_data.zip
+api_key: 
+  'ZHFkNzJmbGhhOGpocXNzcnRpaXRjM2dsZnQ6MDNhYmEyNzAtNTYwZS00Y2FhLTgzZWItMWJlNjI1NDZhMGYx'
+num_gpus:
+  '1'
+model: 
+  model_name:
+    'resnet18'
+  model_download_dir: 
+    '.'
+  model_type: 
+    'nvidia/tlt_pretrained_object_detection'
+  base_model: 
+    'detectnet_v2'
+  data_type:
+    'int8'
+specs:
+  data_convert_spec: 
+    'detectnet_v2_tfrecords_kitti_trainval.txt'
+  train_spec:
+    'detectnet_v2_train_resnet18_kitti.txt' 
+  retrain_spec:
+    'detectnet_v2_retrain_resnet18_kitti.txt'
