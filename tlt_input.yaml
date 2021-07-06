@@ -1,5 +1,5 @@
 url:
-  https://github.com/singh-atul/Data_for_tlt/blob/main/tlt_data.zip
+  https://github.com/singh-atul/Data_for_tlt/raw/main/tlt_data.zip
 api_key: 
   'ZHFkNzJmbGhhOGpocXNzcnRpaXRjM2dsZnQ6MDNhYmEyNzAtNTYwZS00Y2FhLTgzZWItMWJlNjI1NDZhMGYx'
 num_gpus:
