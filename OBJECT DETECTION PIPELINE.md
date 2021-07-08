@@ -1,9 +1,6 @@
 # OBJECT DETECTION PIPELINE 
 ## Using Transfer Learning Toolkit
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ### Prerequisite
 - Understanding of [Transfer Learning](https://blogs.nvidia.com/blog/2019/02/07/what-is-transfer-learning/)
 - Understanding of [NVIDIA Transfer Learning Toolkit](https://docs.nvidia.com/tlt/tlt-user-guide/text/overview.html)
@@ -13,7 +10,7 @@
 This pipeline uses TLT which is a Python package hosted on the NVIDIA Python Package Index. It interacts with lower-level TLT dockers available from the NVIDIA GPU Accelerated Container Registry (NGC); This pipline takes the dataset, specification files and input from the user and generates the pruned and quantized model which can be deployed on the inferencing platform providing an end to end solution
 
 ### PIPELINE WORKFLOW
-![Solid](https://raw.githubusercontent.com/singh-atul/Data_for_tlt/main/workflow.jpg)]
+![Solid](https://raw.githubusercontent.com/singh-atul/Data_for_tlt/main/workflow.jpg)
 
 1. User needs to give url to download the input yaml. Details on the creation of input yaml is discussed below
 2. Dataset gets downloaded from the  url mentioned in the input yaml and gets stored in the Persistent Volume
