@@ -6,7 +6,7 @@ dataset:
   url: 'https://github.com/singh-atul/Data_for_tlt/raw/main/data.zip'
 
 spec:
-  url_path:
+  spec_url:
     'https://github.com/singh-atul/Data_for_tlt/raw/main/specs.zip'
     
 api_key: 
