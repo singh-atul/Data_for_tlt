@@ -1,5 +1,14 @@
-url:
-  https://github.com/singh-atul/Data_for_tlt/raw/main/tlt_data.zip
+dataset:
+  name:
+    'kitti_object_detection'
+  version:
+    '1'
+  url: 'https://github.com/singh-atul/Data_for_tlt/raw/main/data.zip'
+
+spec:
+  url_path:
+    'https://github.com/singh-atul/Data_for_tlt/raw/main/specs.zip'
+    
 api_key: 
   'ZHFkNzJmbGhhOGpocXNzcnRpaXRjM2dsZnQ6MDNhYmEyNzAtNTYwZS00Y2FhLTgzZWItMWJlNjI1NDZhMGYx'
 num_gpus:
